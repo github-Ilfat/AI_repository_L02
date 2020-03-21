@@ -83,8 +83,6 @@ while integer_number > 0:
 '''
 print('Задача 5b. Данный скрипт выводит цифры числа на каждой строчке начиная слева-направо.')
 integer_number = 2129
-ostatok_number=integer_number%1000
-cifra_number=integer_number//1000
 print('Число для вывода его цифр на каждой строчке начиная слева-направо:', integer_number)
 k = 10**(len(str(integer_number))-1)
 ostatok_number=integer_number
@@ -103,8 +101,6 @@ while ostatok_number > 0:
 '''
 print('Задача 6. Данный скрипт определяет сумму цифр числа.')
 integer_number = 2129
-#ostatok_number=integer_number%1000
-#cifra_number=integer_number//1000
 print('Исследуемое число:', integer_number)
 print('Ответ, сумма цифр числа равна:')
 k = 10**(len(str(integer_number))-1)
@@ -128,10 +124,8 @@ while ostatok_number > 0:
 '''
 print('Задача 7. Данный скрипт определяет произведение цифр числа.')
 integer_number = 2129
-#ostatok_number=integer_number%1000
-#cifra_number=integer_number//1000
 print('Исследуемое число:', integer_number)
-print('Ответ, сумма цифр числа равна:')
+print('Ответ, произведение цифр числа равна:')
 k = 10**(len(str(integer_number))-1)
 sum = 1
 ostatok_number=integer_number
